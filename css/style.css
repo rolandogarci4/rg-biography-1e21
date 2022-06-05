@@ -137,7 +137,7 @@ body{
         width: 100%;
         text-align: center;
         justify-content: space-around;
-        font-weight: 700;
+        font-weight: 500;
     }
         .footer .links a:hover{
             text-decoration: line-through;
@@ -146,23 +146,16 @@ body{
         }
 
 @media only screen and (max-width: 768px){
-    .navbar-items{
-        width: 100%;
-        margin-top: 1rem;
-    }
+.navbar-items{
+    width: 50%;
+    margin-top: 1rem;
+}
     .menu{
         display: block;
     }
-    .navbar-items ul li{
-        display: block;
-    }
-
-    .navbar-items ul li a:hover{
-        background-color: beige;
-        padding: 0.5rem 0;
-        border-radius: 5px;
-        transition: all 0.4s linear;
-    }
+        .navbar-items ul li{
+            display: block;
+        }
 
     
 }
